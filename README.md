@@ -20,4 +20,4 @@ Este repositorio contiene el código fuente para el sitio web del laboratorio de
 
 1. **Clona el Repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/sitio-web-pruebas-mecanicas.git
+   git clone https://github.com/johernandezvaz/asecalab-website.git
