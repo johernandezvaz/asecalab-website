@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Sitio web para laboratorio de pruebas mecánicas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el código fuente para el sitio web del laboratorio de pruebas mecánicas. El sitio web está diseñado para proporcionar información sobre los servicios ofrecidos por el laboratorio, así como facilitar el contacto con los clientes interesados.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Página de inicio dinámica:** La página de inicio presenta un carrusel de imágenes que muestra los servicios ofrecidos por el laboratorio.
+- **Formulario de contacto:** Los visitantes pueden completar un formulario de contacto para enviar consultas y solicitudes de información.
+- **Información detallada sobre servicios:** Se proporciona información detallada sobre los servicios ofrecidos por el laboratorio, así como los cursos de capacitación disponibles.
+- **Sección de noticias:** Se muestra un videoclip con las últimas noticias y actualizaciones del laboratorio.
+- **Diseño moderno y profesional:** El sitio web está diseñado con una apariencia moderna y profesional, utilizando colores y fuentes atractivas.
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Frontend:** El frontend del sitio web está construido con React.js y TypeScript. Se utiliza Tailwind CSS para el estilo y la maquetación.
+- **Backend:** Para el backend del formulario de contacto, se utiliza un servidor Express.js con Node.js.
+- **Envío de correos electrónicos:** Se utiliza la librería Nodemailer para enviar correos electrónicos desde el servidor.
 
-- Configure the top-level `parserOptions` property like this:
+## Instalación y Uso
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clona el Repositorio:**
+   ```bash
+   git clone https://github.com/tu-usuario/sitio-web-pruebas-mecanicas.git
