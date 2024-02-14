@@ -10,7 +10,6 @@ import CourseCard from './components/CourseCard';
 import { coursesData } from './data/CourseData';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
-import AboutUs from './components/AboutUs';
 
 
 function App() {
@@ -29,7 +28,6 @@ function App() {
 
       <Header logoSrc={logo} />
       <Quote />
-      <AboutUs />
       <Slideshow images={slideImages}/>
       <VideoSection 
       videoSrc='https://www.facebook.com/reel/327009269945736'
